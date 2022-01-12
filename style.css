@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding-left: 0%;
+}
+body{
+    background-color: rgb(63, 62, 62);
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.aa{
+    word-spacing: 1rem;
+    
+}
+.t0{
+    color: white;
+}
+.ta2, .ta1{
+    text-decoration: none;
+    color: white;
+}
+.ta1{
+    background-color: rgb(69, 158, 60);
+    border-radius: 10%;
+}
+.ta1:hover{
+    background-color: lightgray;
+    color: rgb(255, 0, 128);
+}
+.ta2:hover{
+    color: rgb(255, 0, 128);
+}
+.ta3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(139, 139, 79);
+    padding-top: 1.25rem;
+}
+.ta3 i{
+    font-size: 4rem;
+    padding-top: 4rem;
+    color: rgb(69, 158, 60) ;
+}
+@media only screen and (max-width: 600px){
+    .ta3{
+        width: 620px;
+    }
+    
+}
+.ta4{
+    width: 80%;
+    padding-left: .5rem;
+    color: white;
+}
+@media only screen and (max-width: 468px){
+    .ta4{
+        width: 10rem;
+    }
+}
+.ta5{
+    padding-right: .5rem;
+    border-radius: 50%;
+   
+}
+@media only screen and (max-width: 864px){
+    .aa{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 729px){
+    .aa{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (max-width: 584px){
+    .aa{
+        font-size: 0.4rem;
+    }
+}
+@media only screen and (max-width: 444px){
+    .aa{
+        font-size: 0.2rem;
+    }
+}
+@media only screen and (max-width: 864px){
+    .ta4{
+        font-size: 0.8rem;
+        padding-bottom: 100px ;
+    }
+}
+@media only screen and (max-width: 415px){
+    .ta5{
+        font-size: .3rem;
+    }
+}
+.tic{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+   background-color:#ed5867;
+}
+@media only screen and (max-width: 600px){
+    .tic{
+       width: 620px;
+    }
+}
+.tic1{
+    margin: 25px;
+}
+.tic1 :hover{
+    background-color: rgb(69, 158, 60) ;
+    color:rgb(252, 252, 250);
+}
+.ta7{
+    
+    background-color: yellowgreen;
+    text-align: center;
+}
+.ta8{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+@media only screen and (max-width: 600px){
+    .ta7{
+       width: 620px;
+    }
+}
+.fun{
+    background-color: yellow;
+    font-size: 2rem;
+    word-spacing: 2rem;
+    height: 5rem;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.fun a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px){
+    .fun{
+       width: 570px;
+    }
+}
